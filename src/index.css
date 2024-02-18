@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Gagisra";
+    src: url('./assets/fonts/GagisraRigade.otf') format("opentype");
+  
+  }
+  
+  body{
+    font-family:"Gagisra" ;
+    background-image: url(./assets/images/Background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: bottom;
+  
+    cursor: pointer;
+  
+  }
+  
+  
